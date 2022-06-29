@@ -1,0 +1,346 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+.header {
+    padding: 48px 60px;
+    position: relative;
+}
+.logo {
+    width: 68px;
+    height: 59px;
+    display: block;
+    margin: 0 auto 80px;
+    position: relative;
+    z-index: 999;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px;
+}
+.nav a {
+    margin: 0 40px;
+    color: #005BBB;
+    text-decoration: none;
+}
+.btn-burger {
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: 60px;
+    border: 0;
+    background: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.btn-close {
+    position: absolute;
+    top: 48px;
+    right: 60px;
+    border: 0;
+    background: none;
+}
+.content__img {
+    padding: 60px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(0, 91, 187, 0.2);
+}
+.content__text {
+    margin: 60px;
+}
+ 
+ .gallery img {
+  width: 400px;
+  margin: 80px auto 30px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-image: linear-gradient( to bottom, #005BBB 50%,#FFD500 50%
+
+) 1 1;
+} 
+.slick-dots button {
+  border-radius: 20px;
+  border: 1px solid #005BBB;
+  font-size: 0;
+  padding: 10px;
+  margin: 0 8px 0 8px;
+  display: block;
+  float: left;
+  align-items: center;
+  
+}
+.slick-dots .slick-active button {
+  background: #005BBB;
+}
+.block  {
+  width: 1024px;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  margin: 80px auto 80px auto;
+  color: #005BBB;
+}
+.block-text {
+  margin: 30px 0 30px 0;
+}
+.headers {
+  width: 1024px;
+  margin: 0 auto;
+  text-transform: uppercase;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: 900;
+   text-align: center;
+   border-top: 1px solid #005BBB;
+   padding: 16px 0 0 0;
+   color: #005BBB;
+}
+.headers:after {
+    content: "";
+    display: block;
+    width: 500px;
+    border-top: 1px solid #005BBB;
+    margin: 16px auto 0 auto; 
+    }
+.hist-block {
+    background: #005BBB;
+    box-sizing: border-box;
+    flex: 0 0 500px;
+    border-left: 10px solid #FFD500;
+    display: flex;
+    align-items: center;
+}
+.hist-text {
+    margin-left: 10px;
+    padding: 40px 40px 40px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.hist-text span {
+    font-size: 48px;
+}
+.hist {
+    max-width: 1024px;
+    margin: 40px auto 80px auto;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .textarea {
+    width: 1024px;
+    height: 120px;
+    border: 0 ;
+    outline: none;
+    
+    resize: none;
+  }
+  .form {
+    width: 1024px;
+    border: 1px solid #005BBB;
+    margin: 40px auto 160px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;}
+
+     .batn {
+    background: #005BBB;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding: 13px 56px 13px 56px;
+    border: 2px dotted #005BBB;
+    box-sizing: border-box;
+    cursor: pointer;}
+.form-text {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    color: #005BBB;
+    font-size: 18px;
+    line-height: 22px;
+    resize: none; 
+  }
+  .batn:hover {
+    background: #FFFFFF;
+    color: #005BBB;
+    border: 2px dotted #FFFFFF;
+;
+  }
+  /* tablet */
+
+@media only screen
+    and (max-width: 1023px) {
+        .logo {
+            margin: 0;
+        }
+        .btn-burger {
+            display: block;
+        }
+        .header-navigation {
+            display: none;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #005BBB;
+            padding: 228px 60px 148px;
+            color: #fff;
+        }
+        .menu-open .header-navigation,
+        .menu-open .header-navigation .dropdown {
+            display: block;
+        }
+        .menu-open .logo svg * {
+            fill: #fff;
+        }
+        .menu-open .nav a {
+            color: #fff;
+        }
+        .block {
+          width: 850px;
+        }
+        .headers {
+          width: 850px;
+        }
+        .headers:after {
+          width: 400px;
+        }
+        .hist {
+          display: block;
+        } 
+        .hist-block {
+          margin: 20px;
+        }            
+
+        
+        .form {
+          width: 850px;
+          display: flex;
+        }
+    }
+
+@media only screen
+    and (max-width: 850px) {
+        .header {
+            padding: 0;
+        }
+        .logo {
+            display: none;
+        }
+        .menu-open .logo {
+            display: block;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+        .btn-burger,
+        .btn-close {
+            top: 20px;
+            right: 20px;
+        }
+        .header-navigation {
+            padding: 120px 20px 60px;
+        }
+        .nav {
+            display: block;
+        }
+        .nav a {
+            display: block;
+            margin: 0 0 48px;
+        }
+        .content__text {
+            margin: 20px;
+        }
+        .block {
+          width: 350px;
+        }
+        .headers {
+          width: 335px;
+        }
+        .headers:after {
+          width: 335px;
+        }
+        .form {
+          width: 335px;
+          display: flex;
+          height: 150px;
+         padding: 0;
+        
+        }
+
+
+        
+        .batn {
+          margin-top: 250px;
+         position: absolute;
+          width: 335px;
+
+        }
+        .hist {
+          display: block;
+          width: 335px;
+        }
+    }    
+
+        
+        
